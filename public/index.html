@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />    <title>Portfolio</title>
+</head>
+<script>
+        function toggleDarkMode(){
+            console.log('clicked');
+            const classsName = document.querySelector('html').className;
+            document.querySelector('html').className = classsName === 'dark' ? '' : 'dark'
+        }
+</script>
+<body class="font-mono bg-blue-200 dark:text-white dark:bg-blue-800">
+    <div class="flex justify-end mr-4 cursor-pointer ">
+        <img onclick="toggleDarkMode()" class="float-right h-16 w-16 hover:bg-gray-400 transform hover:scale-110 motion-reduce:transform-none" src="images/light.svg" alt="">
+        
+    </div>
+    <div class="container mx-auto mt-10 p-20 shadow-md grid m-4 rounded-lg bg-gray-200 dark:bg-black ">
+            <div class="grid md:grid-cols-2  gap-20">
+                <div class="text-xl font-medium text-black dark:text-white" data-aos="fade-in">
+                    <p>I am London based Full Stack Web Developer and have experience of working in Software developement industry and familiar with agile approach. My areas of expertise include Laravel(PHP), .NET core, Reactjs and Android. I have a positive personality and commitment to achieve desired business goals.</p>     
+                </div>
+                <div class="">
+                    <img class="h-80 w-80 rounded-full float-left" src="images/myProfilepic.jpg" alt="">
+                </div>
+            </div>
+            <div class="grid md:grid-cols-2 my-8 gap-14">
+                <div>
+                    <hr class="w-80 my-10 border-red-600 border-4">
+                    <span class="text-7xl tracking-wider" data-aos="fade-left">HI, I AM</span> 
+                    <span class="text-9xl tracking-wider" data-aos="fade-right">KIRAN</span> 
+                </div>
+                 <div class="grid grid-cols-3 my-auto">
+                     <div class=""><a target="_blank" href="https://github.com/kiran-nepali"><img class="h-20 w-20" src="images/github.svg" alt=""></a></div>
+                     <div class=""><a target="_blank" href="https://www.linkedin.com/in/kirannepal"><img class="h-20 w-20" src="images/linkedin.svg" alt=""></a></div>
+                     <div class=""><a target="_blank" href="mailto:kiran.nepali@hotmail.com"><img class="h-20 w-20" src="images/email.svg" alt=""></a></div>
+                    
+                    
+                 </div>   
+            </div>
+        
+    </div>
+
+    <!-- Education/Experience -->
+    <div class="container my-10 mx-auto w-full h-full">
+        <div class="relative wrap overflow-hidden p-10 h-full">
+            <div class="grid md:grid-cols-2 mb-4">
+                <div class="grid text-center text-4xl font-bold">Education <i class="fas fa-graduation-cap"></i></div>
+                <div class="grid text-center text-4xl font-bold">Experience<i class="fas fa-briefcase"></i></div>
+            </div>
+            
+          <div class="border-2-2 absolute border-opacity-20 border-gray-700 h-full border" style="left: 50%"></div>
+          <!-- right timeline -->
+          <div class="mb-8 flex justify-between items-center w-full">
+            <div class="order-1 w-5/12"></div>
+            <div class="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
+              <h1 class="mx-auto font-semibold text-lg text-white"></h1>
+            </div>
+            <div class="order-1 bg-gray-400 rounded-lg shadow-xl w-5/12 px-6 py-4" data-aos="fade-left">
+              <h3 class="mb-3 font-bold text-gray-800 text-xl dark:text-white">Software Engineer</h3>
+              <p class="text-sm leading-snug tracking-wide text-opacity-100">The App Experts</p>
+              <p class="text-sm leading-snug tracking-wide text-opacity-100">Aug'19 - Present</p>
+              <p class="text-sm leading-snug tracking-wide text-opacity-100">Worked with C#, .NET core, React, Laravel, Android</p>
+            </div>
+          </div>
+      
+          <!-- left timeline -->
+          <div class="mb-8 flex justify-between flex-row-reverse items-center w-full">
+            <div class="order-1 w-5/12"></div>
+            <div class="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
+              <h1 class="mx-auto text-white font-semibold text-lg"></h1>
+            </div>
+            <div class="order-1 bg-red-400 rounded-lg shadow-xl w-5/12 px-6 py-4" data-aos="fade-right">
+              <h3 class="mb-3 font-bold text-white text-xl">Royal Holloway University of London</h3>
+              <p class="text-sm font-medium leading-snug tracking-wide text-white text-opacity-100">BSc Computer Science</p>
+              <p class="text-sm font-medium leading-snug tracking-wide text-white text-opacity-100">2014 - 2017</p>
+
+            </div>
+          </div>
+          
+          <!-- right timeline -->
+          <div class="mb-8 md:flex justify-between items-center w-full">
+            <div class="order-1 w-5/12"></div>
+            <div class="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
+              <h1 class="mx-auto font-semibold text-lg text-white"></h1>
+            </div>
+            <div class="order-1 bg-gray-400 rounded-lg shadow-xl w-5/12 px-6 py-4" data-aos="fade-left">
+              <h3 class="mb-3 font-bold text-gray-800 text-xl dark:text-white">Android Developer</h3>
+              <p class="text-sm leading-snug tracking-wide  text-opacity-100">Tesco Bank Edinburgh</p>
+              <p class="text-sm leading-snug tracking-wide  text-opacity-100">Nov'19 - Jan'20</p>
+              <p class="text-sm leading-snug tracking-wide  text-opacity-100">Worked with Kotlin, Java</p>
+            </div>
+          </div>
+      
+          <!-- left timeline -->
+          <div class="mb-8 flex justify-between flex-row-reverse items-center w-full">
+            <div class="order-1 w-5/12"></div>
+            <div class="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
+              <h1 class="mx-auto text-white font-semibold text-lg"></h1>
+            </div>
+            <div class="order-1 bg-red-400 rounded-lg shadow-xl w-5/12 px-6 py-4" data-aos="fade-left">
+              <h3 class="mb-3 font-bold text-white text-xl">Uxbridge College London</h3>
+              <p class="text-sm font-medium leading-snug tracking-wide text-white text-opacity-100">BTEC Extended Diploma in IT
+              <p class="text-sm font-medium leading-snug tracking-wide text-white text-opacity-100">2010 - 2012</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Projects -->
+      <div class="container my-10 mx-auto w-full h-full p-10">
+          <h3 class=" grid text-center mb-8 text-4xl font-bold">Projects<i class="fas fa-project-diagram m-2"></i>
+          </h3>
+          <div class="grid md:grid-cols-4 gap-4">
+                <div class="relative hover-trigger p-2 rounded-lg bg-white shadow-xl dark:bg-black hover:bg-gray-500" data-aos="flip-right"><a href="http://www.blogweb-kiran.co.uk" target="_blank"><img class="w-70 h-40" src="images/blog-web.png" alt=""></a>
+                    <h3 class="text-center text-2xl font-bold">BlogWeb</h3>
+                    <div class="absolute bg-blue-500 rounded-lg border border-grey-100 px-4 py-1 hover-target -my-20">
+                        <small>Create and manage your post</small>
+                        <small class="font-bold">Technologies: Laravel(PHP), MySQL, HTML5 </small>
+                    </div>
+                </div>
+
+                <div class="relative hover-trigger p-2 rounded-lg bg-white shadow-xl dark:bg-black hover:bg-gray-500" data-aos="flip-right"><a href="https://kirannep.itch.io/foodclicky" target="_blank"><img class="w-70 h-40" src="images/FoodClicky.png" alt=""></a>
+                    <h3 class="text-center text-2xl font-bold">FoodClicky</h3>
+                    <div class="absolute  bg-blue-500 rounded-lg border border-grey-100 px-4 py-1 hover-target -my-20">
+                        <small>Play game:Click the jumpy food to score a point</small><br>
+                        <small class="font-bold">Technologies: C#, Unity Engine</small>
+                    </div>
+                </div>
+
+                <div class="relative hover-trigger p-2 rounded-lg bg-white shadow-xl dark:bg-black hover:bg-gray-500" data-aos="flip-left"><a href="https://kiran-nepali.github.io/React-MovieApi/" target="_blank"><img class="w-70 h-40" src="images/Movie.png" alt=""></a>
+                    <h3 class="text-center text-2xl font-bold">MovieSearch</h3> 
+                    <div class="absolute  bg-blue-500 rounded-lg border border-grey-100 px-4 py-1 hover-target -my-20">
+                        <small>Search any movie you like to get information</small><br>
+                        <small class="font-bold">Technologies: Reactjs </small>
+                    </div>               
+                </div>
+
+                <div class="relative hover-trigger p-2 rounded-lg bg-white shadow-xl dark:bg-black hover:bg-gray-500" data-aos="flip-left"><img class="w-70 h-40" src="images/TripManager.png" alt="">
+                    <h3 class="text-center text-2xl font-bold">TripManager</h3>
+                    <div class="absolute  bg-blue-500 rounded-lg border border-grey-100 px-4 py-1 hover-target -my-20">
+                        <small>Create and manage your trip</small>
+                        <small class="font-bold">Technologies: C#, .NET core, Reactjs</small>
+                    </div>
+                </div>
+          </div>
+      </div>
+
+      <!-- Skills -->
+
+      <div class="container my-10 mx-auto w-full h-full p-10"> 
+        <h3 class=" grid text-center mb-8 text-4xl font-bold">Skills<i class="fas fa-tools" m-2></i></h3>
+        <div class="grid md:grid-cols-4 gap-4">
+            <div class="bg-gray-100 dark:bg-black p-2 rounded-full text-center flex justify-center hover:bg-gray-500">
+                <div><img src="images/laravel.svg" alt="" class="h-10 w-10 mx-4"></div>
+                <div class="my-auto">Laravel(PHP)</div> 
+            </div>
+            <div class="bg-gray-100 dark:bg-black p-2 rounded-full text-center flex justify-center hover:bg-gray-500">
+                <div><img src="images/react.svg" alt="" class="h-10 w-10 mx-4"></div>
+                <div class="my-auto">Reactjs</div> 
+            </div>
+            <div class="bg-gray-100 dark:bg-black p-2 rounded-full text-center flex justify-center hover:bg-gray-500">
+                <div><img src="images/html5.svg" alt="" class="h-10 w-10 mx-4"></div>
+                <div class="my-auto">HTML</div> 
+            </div>
+            <div class="bg-gray-100 dark:bg-black p-2 rounded-full text-center flex justify-center hover:bg-gray-500">
+                <div><img src="images/javascript.svg" alt="" class="h-10 w-10 mx-4"></div>
+                <div class="my-auto">JavaScript</div> 
+            </div>
+            <div class="bg-gray-100 dark:bg-black p-2 rounded-full text-center flex justify-center hover:bg-gray-500">
+                <div><img src="images/css.svg" alt="" class="h-10 w-10 mx-4"></div>
+                <div class="my-auto">CSS</div> 
+            </div>
+            <div class="bg-gray-100 dark:bg-black p-2 rounded-full text-center flex justify-center hover:bg-gray-500">
+                <div><img src="images/mysql.svg" alt="" class="h-10 w-10 mx-4"></div>
+                <div class="my-auto">MySQL</div> 
+            </div>
+            <div class="bg-gray-100 dark:bg-black p-2 rounded-full text-center flex justify-center hover:bg-gray-500">
+                <div><img src="images/c-sharp.svg" alt="" class="h-10 w-10 mx-4"></div>
+                <div class="my-auto">C#</div> 
+            </div>
+            <div class="bg-gray-100 dark:bg-black p-2 rounded-full text-center flex justify-center hover:bg-gray-500">
+                <div><img src="images/java.svg" alt="" class="h-10 w-10 mx-4"></div>
+                <div class="my-auto">Java</div> 
+            </div>
+            <div class="bg-gray-100 dark:bg-black p-2 rounded-full text-center flex justify-center hover:bg-gray-500">
+                <div><img src="images/kotlin.svg" alt="" class="h-10 w-10 mx-4"></div>
+                <div class="my-auto">Kotlin</div> 
+            </div>
+            <div class="bg-gray-100 dark:bg-black p-2 rounded-full text-center flex justify-center hover:bg-gray-500">
+                <div><img src="images/azure.svg" alt="" class="h-10 w-10 mx-4"></div>
+                <div class="my-auto">Azure</div> 
+            </div>
+            <div class="bg-gray-100 dark:bg-black p-2 rounded-full text-center flex justify-center hover:bg-gray-500">
+                <div><img src="images/git.svg" alt="" class="h-10 w-10 mx-4"></div>
+                <div class="my-auto">Git</div> 
+            </div>
+            <div class="bg-gray-100 dark:bg-black p-2 rounded-full text-center flex justify-center hover:bg-gray-500">
+                <div><img src="images/jenkins.svg" alt="" class="h-10 w-10 mx-4"></div>
+                <div class="my-auto">Jenkins</div> 
+            </div>
+        </div>
+      </div>
+
+      <footer class="flex h-10 bg-gray-500 opacity-50 justify-center font-bold">
+         Copyright &copy; 2020 Kiran Nepali
+      </footer>
+    <!-- script -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous"></script>
+    <script>
+        AOS.init({
+            delay:400,
+            duration:2400,
+            once:false
+        })
+    </script>
+    
+</body>
+</html>
